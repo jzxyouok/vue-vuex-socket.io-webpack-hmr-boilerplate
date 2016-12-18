@@ -51,7 +51,6 @@
 import Navigation from '../components/Navigation.vue'
 import FooterTemplate from '../components/Footer.vue'
 
-import Axios from 'axios'
 import Storage from '../util/Storage'
 
 export default {
