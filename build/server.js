@@ -33,10 +33,6 @@ const devMiddleWare = require('webpack-dev-middleware')(compiler, {
 app.use(devMiddleWare)
 app.use(require('webpack-hot-middleware')(compiler))
 
-// Use bodyParser stuff
-app.use(bodyParser.json()); // support json encoded bodies
-app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
-
 const mfs = devMiddleWare.fileSystem
 const file = path.join(webpackConfig.output.path, 'index.html')
 
