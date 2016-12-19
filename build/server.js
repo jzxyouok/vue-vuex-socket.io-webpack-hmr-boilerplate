@@ -7,7 +7,6 @@ const webpack = require('webpack')
 const fse = require('fs-extra')
 const webpackConfig = require('./webpack.dev')
 const io = require('socket.io')(server)
-const bodyParser = require('body-parser')
 const config = require('./config')
 
 
