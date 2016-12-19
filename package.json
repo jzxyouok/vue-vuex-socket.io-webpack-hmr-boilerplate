@@ -13,10 +13,10 @@
 	"dependencies": {
 		"pinkie-promise": "^2.0.1",
 		"socket.io": "^1.7.2",
-		"vue": "^2.1.0",
-		"vue-router": "^2.0.0",
+		"vue": "^2.1.6",
+		"vue-router": "^2.1.1",
 		"vue-socket.io": "^2.0.1",
-		"vuex": "^2.0.0",
+		"vuex": "^2.1.1",
 		"vuex-router-sync": "^3.0.0"
 	},
 	"devDependencies": {
